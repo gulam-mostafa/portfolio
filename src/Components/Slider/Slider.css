@@ -10,8 +10,9 @@ h4 {
 }
 .section {
   width: 100%;
-  margin: 5rem auto;
+  margin: 1rem auto;
   max-width: 100%;
+ 
 }
 
 @media screen and (min-width: 992px) {
@@ -31,7 +32,7 @@ h4 {
   margin: 0 auto;
   margin-top: 4rem;
   width: 80vw;
-  height: 80rem;
+  height: 50rem;
   max-width: 100%;
   text-align: center;
   position: relative;
@@ -47,6 +48,7 @@ article {
   height: 100%;
   opacity: 0;
   transition: all 0.3s linear;
+
 }
 
 article.activeSlide {

@@ -9,10 +9,10 @@ const Banner = () => {
 
 
                 <div className="card lg:card-side  shadow-s bg-transparent">
-                    <div >
+                    <div>
                         <figure className='md:w-96  m-auto bg-transparent animate__animated animate__backInLeft animate__slower'><img className='w- 8/12' src={img} alt="Album" /></figure>
                     </div>
-                    <div className="card-body1 lg:w-full my-auto  animate__animated animate__backInRight animate__slower">
+                    <div  data-aos="fade-left" className="card-body1 lg:w-full my-auto   animate__animated animate__backInRight animate__slower">
                         <h2 className="card-titl text-red-500 lg:text-6xl text-3xl text-center my-4 z-10">About ME</h2>
                         <h3 className='text-3xl text-center text-blue-700 my-4 z-10'>
                             I'm a Junior Web Developer.</h3>

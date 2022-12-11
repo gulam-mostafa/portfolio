@@ -23,7 +23,7 @@ const Skill = () => {
         AOS.refresh();
       }, []);
     return (
-        <div id='skill'  className='md:w-8/12 md:mx-auto mx-1 mb-16 z-20'>
+        <div id='skill' data-aos="fade-right" className='md:w-8/12 md:mx-auto mx-1 mb-16 z-20'>
             <div >
                 <h2 className='text-center text-4xl  font-semibold my-8 text-pink-500'>My Skills</h2>
                 <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-5 gap-5'>

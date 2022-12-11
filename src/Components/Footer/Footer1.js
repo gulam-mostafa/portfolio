@@ -3,9 +3,7 @@ import React from 'react';
 
 const Footer1 = () => {
     return (
-        <div className='mt-8' data-aos="flip-right "
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000">
+        <div className='mt-8'  >
 <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
   <div className="grid grid-flow-col gap-4">
     <a  className="link link-hover">About us</a> 

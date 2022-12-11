@@ -9,6 +9,13 @@ import { AiFillGithub, AiOutlineWhatsApp } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
 import resume from './MostafaPDF.pdf'
 import Typewriter from 'typewriter-effect';
+import Banner from './About/Banner';
+import Skill from '../Screen/Skill';
+import Slider from './Slider/Slider';
+import Contact from './Contact';
+import Nav from './Nav';
+import { Link } from 'react-scroll';
+
 
 
 
@@ -17,7 +24,10 @@ const Intro = () => {
 
 
     return (
-        <div className=' text-center font-bold my-32 z-10 ' id='home'>
+        <div>
+            <Nav></Nav>
+            <div className=' text-center font-bold my-32 z-10 ' id='home'>
+            
             {/* <p>hello</p> */}
 
 
@@ -58,8 +68,18 @@ const Intro = () => {
 
                 <button onClick={() => window.open(resume)} className="buton-cus animate__animated animate__rotateInDownLeft animate__slower">Download CV</button>
 
-                <button className="buton-cus animate__animated animate__rotateInDownRight animate__slow"><a href="">See More</a></button>
+                <Link  to="about" className="buton-cus animate__animated animate__rotateInDownRight animate__slow"><button  >See More</button></Link>
             </div>
+            <BgAnimation></BgAnimation>
+    
+            
+      <Banner></Banner>
+      <Skill />
+
+      <Slider></Slider>
+      <Contact></Contact>
+
+        </div>
         </div>
 
     );

@@ -10,7 +10,7 @@ const people = [
   },
   {
     id: 2,
-    image: "https://i.ibb.co/gy0NJx6/Screenshot-152.png",
+    image: "https://i.ibb.co/KzqKb8V/Screenshot-156.png",
     name: "Power Services",
     title: "Details",
     link: "https://service-review-9125a.web.app/",
@@ -19,7 +19,7 @@ const people = [
   },
   {
     id: 3,
-    image: "https://i.ibb.co/WGxjXgh/Screenshot-150.png",
+    image: "https://i.ibb.co/HYxCjx9/Screenshot-160.png",
     name: "Learn At Home",
     title: "Details",
     link: "https://online-course-ab442.web.app/",

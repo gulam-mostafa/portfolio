@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Slider.css";
 import data from "../../data";
 import { Button } from "flowbite-react";
+import { Link } from "react-router-dom";
 
 const Slider = () => {
   const [people] = useState(data);
@@ -49,10 +50,13 @@ const Slider = () => {
           }
           return (
             <article className={position } key={id}>
-              <img src={image} alt={name} className="person-img  " />
-              <h4>{name}</h4>
+              <img  src={image} alt={name} className="person-img  " />
+              <h4 className="pt-4">{name}</h4>
               <p className="text ">{quote}</p>
-              <a href={link} target='black' className="title m-1/2 btn  rounded btn-primary rounded-0 mx-auto ">{title}</a>
+              <div>
+              <a href={link} target='black' className="title m-1/2 btn  rounded btn-primary rounded-0 mx-auto ">Live</a>
+              <Link to={`/details/${id}`} className="btn rounded round-0 mx-6" >Details</Link>
+              </div>
              
             </article>
           );

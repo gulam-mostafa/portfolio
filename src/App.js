@@ -13,6 +13,9 @@ import Contact from './Components/Contact';
 import Banner from './Components/About/Banner';
 import Footer1 from './Components/Footer/Footer1';
 import Skill from './Screen/Skill';
+import Blog from './Components/Blog/Blog';
+import { BrowserRouter, Route, RouterProvider, } from 'react-router-dom';
+import { Routes } from './Router/Router';
 
 
 // import "aos/dist/aos.css";
@@ -27,20 +30,15 @@ function App() {
 
   return (
     <div className="Ap">
+ <RouterProvider router={Routes}></RouterProvider>
+   
+   
 
-      <BgAnimation></BgAnimation>
-      <div className='sticky top-0 z-50'>
-      <Nav></Nav>
-      </div>
-      <Intro></Intro>
-      <Banner></Banner>
-      <Skill/>
 
-      <Slider></Slider>
-      <Contact></Contact>
-     <Footer1></Footer1>
+      {/* <Footer1></Footer1> */}
     </div>
   );
 }
+
 
 export default App;

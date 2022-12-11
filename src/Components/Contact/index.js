@@ -28,7 +28,7 @@ const [loading, setoading] = useState(false)
             form.current.reset()
     };
     return (
-        <div className='w-8/12  m-auto' id='contact'>
+        <div  className='w-8/12  mx-auto' id='contact'>
             <p className='text-center text-2xl font-bold '>Contract with me</p>
 
             <form ref={form}  onSubmit={sendEmail} className="flex flex-col gap-4">
